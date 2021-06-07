@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+
+  color: white;
+}
+
+.covid__main {
+  background-color: black;
+  height: 100vh;
+  padding: 2px;
+}
+
+@media screen and (max-width: 720px) {
+  .covid__main {
+    background-color: white;
+  }
+  .covid__header {
+    text-align: center;
+    color: black;
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  * {
+    box-sizing: border-box;
+
+    color: black;
+  }
+}
+
+header {
+  margin: 2em;
+  text-align: center;
+}
+section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
